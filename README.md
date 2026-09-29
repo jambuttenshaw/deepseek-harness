@@ -2,6 +2,10 @@
 
 English | [中文](README.zh.md)
 
+> [!CAUTION]
+> This fork of DSH allows `--host` to be set to `0.0.0.0` for the purpose of using DSH within Docker containers.
+> Do not build and use this fork outside of a Docker container!
+
 DeepSeek Harness (`dsh`) is an open-source agent harness developed by [DeepSeek AI](https://deepseek.com).
 
 It is built on an **everything-is-a-plugin** architecture and powered by [Cordis](https://github.com/cordiverse/cordis), whose design is described in [_A Programming Paradigm for Spatiotemporal Composability_](https://arxiv.org/abs/2608.25512).
